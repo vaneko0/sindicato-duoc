@@ -1,4 +1,4 @@
 # sindicato-duoc
  Página Sindicato Duoc
 
- Este es un texto de prueba para ver si funca uwu
+ Esta es la página template (por ahora), de la nueva página del Sindicato de Duoc UC
