@@ -682,7 +682,7 @@ textarea:focus {
 /*colored background*/
  .white-bg { background: #fff !important; }
  .gray-bg { background: #f5f6f7 !important; }
- /*.black-bg { background: #303030 !important; }*/
+ .black-bg { background: #001e39 !important; }
  .default-bg { background: #ffbb33 !important; }
  .transparent-bg { background: transparent !important; }
 
@@ -1240,7 +1240,7 @@ Common Style CSS
        6. Timeline Area CSS
 ------------------------------------*/
 .timeline-area {
-	padding: 50px 0 80px;
+	padding: 0px 0px;
 }
 .timeline-frame {
 	background-image: url(img/time-line-frame/frame1.png);
