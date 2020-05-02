@@ -1240,7 +1240,7 @@ Common Style CSS
        6. Timeline Area CSS
 ------------------------------------*/
 .timeline-area {
-	padding: 375px 0 80px;
+	padding: 50px 0 80px;
 }
 .timeline-frame {
 	background-image: url(img/time-line-frame/frame1.png);
@@ -1579,7 +1579,7 @@ Common Style CSS
 	color: #303030;
 }
 .team-social-link > li > a:hover{
-    background-color: #b99044;
+    background-color: #b99044;/*Cambiar al color de duoc #ffbb33*/
     color: #fff;
     border-color: #b99044;
 }
