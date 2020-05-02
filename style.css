@@ -85,7 +85,7 @@ button:focus {
 }
 a:focus,
 a:hover {
-    color: #b99044;
+    color: #ffbb33;
     text-decoration: none;
 }
 a,
@@ -108,7 +108,7 @@ h5,
 h6 {
     font-family: 'Droid Serif';
     font-weight: normal;
-    color: #303030;
+    color: #3e3d40;
     margin-top: 0px;
     font-style: normal;
     font-weight: 400;
@@ -175,7 +175,7 @@ label {
     text-shadow: none;
 }
 .mark, mark {
-    background: #b99044 none repeat scroll 0 0;
+    background: #ffbb33 none repeat scroll 0 0;
     color: #ffffff;
 }
 .fix {
@@ -277,7 +277,7 @@ blockquote::before {
 .section-title > h4 {
 	font-size: 22px;
 	font-weight: 700;
-	color: #b99044;
+	color: #3e3d40;
 	margin-top: 20px;
 	text-transform: capitalize;
 }
@@ -288,7 +288,7 @@ blockquote::before {
     margin-bottom: 25px;
 }
 .section-title > h2 > span {
-	color: #b99044;
+	color: #ffbb33;
 }
 .section-title > p {
 	font-size: 16px;
@@ -334,10 +334,10 @@ blockquote::before {
 	vertical-align: middle;
 }
 .default-btn:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .default-btn:hover::before{
-    background-color: #b99044;
+    background-color: #ffbb33;
 }
 /*************************
        social-icon
@@ -352,13 +352,13 @@ blockquote::before {
 	height: 30px;
 	line-height: 30px;
 	display: block;
-	border: 1px solid #b99044;
+	border: 1px solid #ffbb33;
 	text-align: center;
 	border-radius: 100%;
-	color: #b99044;
+	color: #ffbb33;
 }
 .social-link > li > a:hover {
-	background-color: #b99044;
+	background-color: #ffbb33;
 	color: #303030;
 }
 /*************************
@@ -434,7 +434,7 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 }
 #scrollUp:hover{
-    background: #b99044;
+    background: #ffbb33;
 }
 
 /*************************
@@ -1098,13 +1098,13 @@ Common Style CSS
 }
 .hero-content > .title > h1 {
 	font-size: 55px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 .hero-content > .title > h2 {
-	color: #b99044;
+	color: #ffbb33;
 	font-size: 28px;
 	font-weight: 400;
     margin-bottom: 0;
@@ -1119,7 +1119,7 @@ Common Style CSS
 }
 .hero-content > a {
 	font-size: 20px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	font-family: Droid Serif;
 	text-decoration: underline;
@@ -1145,7 +1145,7 @@ Common Style CSS
 	margin: 22px 0;
 }
 .single-feature:hover > h2{
-    color: #b99044;
+    color: #ffbb33;
 }
 .single-feature > h2 {
 	font-size: 24px;
@@ -1210,7 +1210,7 @@ Common Style CSS
 }
 .about-content > h1 {
 	font-size: 36px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -1280,7 +1280,7 @@ Common Style CSS
 	font-size: 14px;
 	font-weight: 700;
 	font-family: Droid Serif;
-	color: #b99044;
+	color: #ffbb33;
 	text-align: center;
 	display: block;
 	text-decoration: underline;
@@ -1429,7 +1429,7 @@ Common Style CSS
 }
 .service-sidebar > h3 {
 	font-size: 24px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	margin-bottom: 45px;
 }
@@ -1480,7 +1480,7 @@ Common Style CSS
     margin-bottom: 0px;
 }
 .service-sidebar > a.download:hover{
-    background-color: #b99044;
+    background-color: #ffbb33;
     color: #303030;
 }
 .service-next-prev {
@@ -1502,7 +1502,7 @@ Common Style CSS
 	color: #979797;
 }
 .service-next-prev > ul > li > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 } 
 .service-next-prev > ul > li > a > i{
     vertical-align: middle;
@@ -1579,9 +1579,9 @@ Common Style CSS
 	color: #303030;
 }
 .team-social-link > li > a:hover{
-    background-color: #b99044;/*Cambiar al color de duoc #ffbb33*/
+    background-color: #ffbb33;/*Cambiar al color de duoc #ffbb33*/
     color: #fff;
-    border-color: #b99044;
+    border-color: #ffbb33;
 }
 /*----------------------------------
        10. Our Working Area CSS
@@ -1633,7 +1633,7 @@ Common Style CSS
 }
 .request-quate-title > h2 {
 	font-size: 34px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	margin: 0;
 }
@@ -1712,7 +1712,7 @@ Common Style CSS
 	font-size: 13px;
 	line-height: 30px;
 	position: relative;
-	color: #757575;
+	color: #3e3d40;/*#757575*/
 	font-weight: 600;
 	margin-right: 20px;
 	text-transform: uppercase;
@@ -1735,7 +1735,7 @@ Common Style CSS
 	display: inline-block;
 }
 .blog-meta > li > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .blog-content > h3 {
 	font-size: 24px;
@@ -1781,10 +1781,10 @@ Common Style CSS
 	vertical-align: middle;
 }
 .blog-content > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .blog-content > a:hover::before{
-    background-color: #b99044;
+    background-color: #ffbb33;
 }
 /*----------------------
     Pagination css
@@ -1812,7 +1812,7 @@ Common Style CSS
 	vertical-align: middle;
 }
 .blog-pagination > ul > li > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 /*---------------------------
     Blog Sidebar css
@@ -1857,7 +1857,7 @@ Common Style CSS
 }
 .sidebar-form > form > input:focus,
 .widget-newslatter > form input:focus{
-    border-color: #b99044;
+    border-color: #ffbb33;
 }
 .sidebar-form > form > button,
 .widget-newslatter > form button{
@@ -1885,7 +1885,7 @@ Common Style CSS
 	top: 5px;
 }
 .widget-newslatter > form button:hover{
-    background: #b99044; 
+    background: #ffbb33; 
 }
 .sidebar-rc-post > ul > li {
 	list-style: none;
@@ -1962,9 +1962,9 @@ Common Style CSS
 	border: 1px solid #cbcbcb;
 }
 .sidebar-tag > li > a:hover {
-	background: #b99044;
+	background: #ffbb33;
 	color: #fff;
-	border-color: #b99044;
+	border-color: #ffbb33;
 }
 /*Instafeed css*/
 .widget-instagram {
@@ -2153,7 +2153,7 @@ h4.small-title {
 }
 .common-tag ul > li > a:hover,
 .blog-share ul > li > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .next-prev-post {
 	flex: 1 0 100%;
@@ -2177,7 +2177,7 @@ h4.small-title {
 	color: #979797;
 }
 .next-prev-post > ul > li > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .comment {
 	display: flex;
@@ -2209,7 +2209,7 @@ h4.small-title {
 }
 .comment-content a.reply {
 	font-size: 14px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -2232,7 +2232,7 @@ h4.small-title {
 .sent-btn {
 	display: inline-block;
 	height: 45px;
-	background: #b99044;
+	background: #ffbb33;
 	padding: 10px 30px;
 	color: #fff;
 	font-weight: 600;
@@ -2242,7 +2242,7 @@ h4.small-title {
 	position: relative;
 	vertical-align: middle;
 	overflow: hidden;
-	border: 1px solid #b99044;
+	border: 1px solid #ffbb33;
 	transition: 0.3s ease-in-out;
 }
 .sent-btn:hover{
@@ -2378,13 +2378,13 @@ h4.small-title {
     font-size: 14px;
 }
 .footer-tweet > li > span > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .footer-tweet > li > p > a {
 	font-weight: 300;
     font-size: 16px;
     display: inline-block;
-	color: #b99044;
+	color: #ffbb33;
 }
 .footer-tweet > li::before {
 	position: absolute;
@@ -2419,10 +2419,10 @@ h4.small-title {
 	font-weight: 400;
 }
 .footer-bottom-area p span {
-	color: #b99044;
+	color: #ffbb33;
 }
 .footer-bottom-area p a{
-    color: #b99044;
+    color: #ffbb33;
 }
 /*---------------------
     15. Page Banner CSS
@@ -2478,7 +2478,7 @@ h4.small-title {
 	font-size: 32px;
 	text-align: center;
 	font-weight: 700;
-	color: #b99044;
+	color: #ffbb33;
     margin-bottom: 20px;
 }
 .page-appointment-box .single-input {
@@ -2497,7 +2497,7 @@ h4.small-title {
 }
 .single-input > input:focus,
 .single-input > textarea:focus{
-    border-color: #b99044;
+    border-color: #ffbb33;
 }
 .single-input > input::-webkit-input-placeholder,
 .single-input > textarea::-webkit-input-placeholder{
@@ -2561,7 +2561,7 @@ h4.small-title {
     transition: all 0.5s ease-in-out;
 }
 .single-pricing-table:hover .pricing-head {
-	background: #b99044;
+	background: #ffbb33;
 }
 .single-pricing-table:hover .pricing-head .price::before {
 	background-color: #303030;
@@ -2577,7 +2577,7 @@ h4.small-title {
 }
 .priceing-description > h3 {
 	font-size: 32px;
-	color: #b99044;
+	color: #ffbb33;
 	font-weight: 700;
 	line-height: 40px;
 	margin-bottom: 20px;
@@ -2626,7 +2626,7 @@ h4.small-title {
 	left: 0;
 	height: 40px;
 	width: 180px;
-	background-color: #b99044;
+	background-color: #ffbb33;
 	z-index: -1;
     transition: all 0.3s ease-in-out;
 }
@@ -2679,17 +2679,17 @@ h4.small-title {
 	padding: 24px 50px;
 }
 .pricing-footer > a:hover{
-    background-color: #b99044;
+    background-color: #ffbb33;
     color: #fff;
 }
 .single-pricing-table.pricing-active .pricing-head{
-    background-color: #b99044;
+    background-color: #ffbb33;
 }
 .single-pricing-table.pricing-active .pricing-head .price::before{
     background-color: #303030;
 }
 .single-pricing-table.pricing-active .pricing-footer > a{
-    background-color: #b99044;
+    background-color: #ffbb33;
     color: #fff;
 }
 .single-pricing-table.style-2 {
@@ -2768,7 +2768,7 @@ h4.small-title {
 	line-height: 1;
 }
 .single-pricing-table.style-2 .pricing-footer > a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .pricing-footer > a i {
     transition: all 0.4s ease-out 0s;
@@ -2817,7 +2817,7 @@ h4.small-title {
 	color: #fff;
 }
 .contact-information p a:hover{
-    color: #b99044;
+    color: #ffbb33;
 }
 .contact-form-title > h3 {
 	font-size: 32px;
