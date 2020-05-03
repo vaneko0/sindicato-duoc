@@ -306,11 +306,11 @@ blockquote::before {
          button
 *************************/
 .default-btn {
-	background: transparent;
+	background: #ffbb33;
 	border: 0;
-	color: #aaaaaa;
-	margin-top: 40px;
-	font-size: 14px;
+	color: #012c56;
+	margin-top: -8px;
+	font-size: 20px;
 	line-height: 46px;
 	font-family: Droid Serif;
 	font-weight: 700;
@@ -326,12 +326,12 @@ blockquote::before {
 	content: "";
 	width: 95px;
 	height: 1px;
-	background-color: #aaaaaa;
+	background-color: #ffbb33;
 	transition: all 0.3s ease-in-out;
 }
 .default-btn > i {
 	font-size: 24px;
-	vertical-align: middle;
+	vertical-align: right;
 }
 .default-btn:hover{
     color: #ffbb33;
@@ -797,6 +797,22 @@ Common Style CSS
 }
 .header-top-left > p, 
 .header-top-right > p{
+	color: #ffbb33;
+	display: inline-block;
+	text-transform: none;
+	margin-left: 8px;
+}
+/*.header-top-left > p > a,*/
+.header-top-right > p > a{
+	margin: 0;
+	color: #ffbb33;
+	font-size: 17px;
+	text-transform: uppercase;
+	line-height: 35px;
+    font-weight: 500;
+}
+/*.header-top-left > p > a, */
+.header-top-right > p > a{
 	color: #ffbb33;
 	display: inline-block;
 	text-transform: none;
@@ -2409,17 +2425,17 @@ h4.small-title {
     14.2 Footer Bottom Area CSS
 ------------------------------------*/
 .footer-bottom-area {
-	background-color: #ffbb33;
+	background-color: #001e39 !important;
 }
 .footer-bottom-area p {
 	font-size: 14px;
-	color: #e2e2e2;
+	color: #c6c7c8;
 	line-height: 24px;
 	margin: 0;
 	font-weight: 400;
 }
 .footer-bottom-area p span {
-	color: #ffbb33;
+	color: #c6c7c8;
 }
 .footer-bottom-area p a{
     color: #ffbb33;
