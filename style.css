@@ -67,11 +67,14 @@ body {
     color: #6e6e6e;
 }
 .img {
+	position: absolute;
 	max-width: 100% !important;
 	height: auto !important;
+
 }
 .img-full img{
-	width: 100%;
+	width: 50%;
+	position: relative;
 }
 a,
 button {
@@ -285,7 +288,8 @@ blockquote::before {
 	font-size: 32px;
 	font-weight: 700;
 	line-height: 36px;
-    margin-bottom: 25px;
+	margin-bottom: 25px;
+	/*background-color: #ffbb33;*/
 }
 .section-title > h2 > span {
 	color: #ffbb33;
