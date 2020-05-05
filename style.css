@@ -149,6 +149,9 @@ ul {
 p {
     margin-bottom: 15px;
 }
+p > a{
+	color: #001e39 !important;
+}
 hr{
     margin: 60px 0;
     padding: 0px;
@@ -685,7 +688,7 @@ textarea:focus {
  .white-bg { background: #fff !important; }
  .gray-bg { background: #f5f6f7 !important; }
  .black-bg { background: #001e39 !important; }
- .default-bg { background: #ffbb33 !important; }
+ .default-bg { background:  #001e39 !important; }
  .transparent-bg { background: transparent !important; }
 
 /*Opacity background*/
@@ -734,7 +737,7 @@ Common Style CSS
 }
 .header-top-wrap {
 	padding: 15px 75px;
-	background-color: #001e39; /*color del center header*/
+	background-color: #c6c7c8; /*color del center header*/
 	margin-bottom: -15px;
 }
 .wrapper.box-layout {
@@ -838,17 +841,17 @@ Common Style CSS
 .main-menu > li {
 	display: inline-block;
 	list-style: none;
-    position: relative;
+	position: relative;
 }
 .main-menu > li:last-child a{
     padding-right: 0;
 }
 .main-menu > li > a {
 	display: block;
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: 500;
 	padding: 40px 17px;
-	color: #3e3d40 ;
+	color: #001e39 ;
 	line-height: 30px;
 }
 .main-menu > li > a:last-child{
