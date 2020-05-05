@@ -68,12 +68,10 @@ body {
 }
 .img {
 	position: absolute;
-	max-width: 50% !important;
-	height: auto !important;
-
+	max-width: 100% !important;
 }
 .img-full img{
-	width: 50%;
+	width: 100%;
 	position: relative;
 }
 a,
