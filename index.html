@@ -15,7 +15,12 @@
 	<!-- Icofont CSS-->
     <link rel="stylesheet" href="css/icofont.css">
     <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<style>
+		.mySlides{display: none;}
+	</style>
 
 	<!-- Animate CSS-->
 	<link rel="stylesheet" href="css/animate.css">
@@ -160,17 +165,18 @@
 		<!--Puede servir para las imagenes que salen al principio como carrusel-->
 		<div class="slider-area">
 		    <div class="single-slider">
-		        <div class="container" style="background-color: #c6c7c8;">
+		        <div class="container" >
+					<!--style="background-color: #c6c7c8;"-->
 					<div class="hero-img img-full mt-50" data-wow-duration="1.5s" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
 						<!--<img src="img/slider/slider-img.png" alt="" style="display:block !important; margin: auto !important;">-->
-						<img src="img/blog/blog1.jpg" style="display:block !important; margin: auto !important;"><!--El tamaño de la imagen es de referencia!!-->	
-					</div>
-		            <div class="row align-items-center">
-						<div class="col-md-4 col-xl-8">
-		                    
-		                </div>
-		            </div>
-		        </div>
+						<!--<img src="img/blog/blog1.jpg" style="display:block !important; margin: auto !important;">El tamaño de la imagen es de referencia!!-->
+						<div class="w3-content w3-section" style="max-width:500px;">
+							<img class="mySlides" src="img/blog/blog1.jpg" alt="" style="display:block !important; margin: auto !important;">																		
+							<img class="mySlides" src="img/images/c2.png" alt="" style="display:block !important; margin: auto !important;">																		
+						</div>
+						<script src="main.js"></script>
+					</div>				
+				</div>				
 		    </div>
 		</div>
 		<!--Slider Area End-->
@@ -192,10 +198,10 @@
                         </div>
                         <!--Section Title End-->
 		            </div>
-		        </div>
-		        <div class="row">
+				</div>
+				<div class="row">
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -214,7 +220,7 @@
 		            </div>
 		            <!--Single Blog End-->
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -225,7 +231,7 @@
                                    <!--<li><a href="#"></a></li>-->
                                    <!--<li><a href="#">12 comments</a></li>-->
                                 </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
+                                <h3><a href="single-blog.html">[Titular comunicado 2]</a></h3>
                                 <p>[Texto resumen noticia]</p>
                                 <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
                             </div>
@@ -233,7 +239,7 @@
 		            </div>
 		            <!--Single Blog End-->
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -244,36 +250,15 @@
                                    <!--<li><a href="#"></a></li>-->
                                    <!--<li><a href="#">12 comments</a></li>-->
                                 </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
+                                <h3><a href="single-blog.html">[Titular comunicado 3]</a></h3>
                                 <p>[Texto resumen noticia]</p>
                                 <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
                             </div>
                         </div>
 		            </div>
-		            <!--Single Blog End-->
-		        </div>
-		    </div>
-		</div>
-		<!--Latest Blog Area End-->
-
-		<!--Latest Blog Area Start-->
-		<div class="latest-blog-area bg-img pt50 pb-50">
-		    <div class="container">
-		        <div class="row">
-		            <div class="col-md-12">
-		                <!--Section Title Start-->
-                        <div class="section-title text-center mb-70">
-                           <img src="img/icon/icon1.png" alt="">
-                            <h4></h4>
-                            <h4>[Últimos artículos]</h4>
-                            <!--<p>Lawyer boluptatum deleniti atque corrupti quos dolores et quas molestias cepturi sint  eca itate non provident, similique sunt in culpa modi tempora incidunt ut labore et dolor am aerat</p>-->
-                        </div>
-                        <!--Section Title End-->
-		            </div>
-		        </div>
-		        <div class="row">
-		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+					<!--Single Blog End-->
+					<!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -284,45 +269,7 @@
                                    <!--<li><a href="#"></a></li>-->
                                    <!--<li><a href="#">12 comments</a></li>-->
                                 </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
-                                <p>[Texto resumen noticia]</p>
-                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-		            </div>
-		            <!--Single Blog End-->
-		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img">
-                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                   <li>[Fecha del comunicado]</li> 
-                                   <!--<li><a href="#"></a></li>-->
-                                   <!--<li><a href="#">12 comments</a></li>-->
-                                </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
-                                <p>[Texto resumen noticia]</p>
-                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-		            </div>
-		            <!--Single Blog End-->
-		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
-                        <div class="single-blog mb-30">
-                            <div class="blog-img">
-                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <ul class="blog-meta">
-                                   <li>[Fecha del comunicado]</li> 
-                                   <!--<li><a href="#"></a></li>-->
-                                   <!--<li><a href="#">12 comments</a></li>-->
-                                </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
+                                <h3><a href="single-blog.html">[Titular comunicado 4]</a></h3>
                                 <p>[Texto resumen noticia]</p>
                                 <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
                             </div>
@@ -333,7 +280,6 @@
 		    </div>
 		</div>
 		<!--Latest Blog Area End-->
-
 		<!--Latest Blog Area Start-->
 		<div class="latest-blog-area bg-img pt50 pb-50">
 		    <div class="container">
@@ -350,7 +296,7 @@
 		        </div>
 		        <div class="row">
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -369,7 +315,84 @@
 		            </div>
 		            <!--Single Blog End-->
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
+                        <div class="single-blog mb-30">
+                            <div class="blog-img">
+                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                   <li>[Fecha del comunicado]</li> 
+                                   <!--<li><a href="#"></a></li>-->
+                                   <!--<li><a href="#">12 comments</a></li>-->
+                                </ul>
+                                <h3><a href="single-blog.html">[Titular comunicado 2]</a></h3>
+                                <p>[Texto resumen noticia]</p>
+                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+		            </div>
+		            <!--Single Blog End-->
+		            <!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
+                        <div class="single-blog mb-30">
+                            <div class="blog-img">
+                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                   <li>[Fecha del comunicado]</li> 
+                                   <!--<li><a href="#"></a></li>-->
+                                   <!--<li><a href="#">12 comments</a></li>-->
+                                </ul>
+                                <h3><a href="single-blog.html">[Titular comunicado 3]</a></h3>
+                                <p>[Texto resumen noticia]</p>
+                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+		            </div>
+					<!--Single Blog End-->
+					<!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
+                        <div class="single-blog mb-30">
+                            <div class="blog-img">
+                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                   <li>[Fecha del comunicado]</li> 
+                                   <!--<li><a href="#"></a></li>-->
+                                   <!--<li><a href="#">12 comments</a></li>-->
+                                </ul>
+                                <h3><a href="single-blog.html">[Titular comunicado 4]</a></h3>
+                                <p>[Texto resumen noticia]</p>
+                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+		            </div>
+		            <!--Single Blog End-->
+		        </div>
+		    </div>
+		</div>
+		<!--Latest Blog Area End-->
+		
+		<!--Latest Blog Area Start-->
+		<div class="latest-blog-area bg-img pt50 pb-50">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <!--Section Title Start-->
+                        <div class="section-title text-center mb-70">
+                           <img src="img/icon/icon1.png" alt="">                    
+                            <h4>[Últimos convenios]</h4>
+                            <!--<p>Lawyer boluptatum deleniti atque corrupti quos dolores et quas molestias cepturi sint  eca itate non provident, similique sunt in culpa modi tempora incidunt ut labore et dolor am aerat</p>-->
+                        </div>
+                        <!--Section Title End-->
+		            </div>
+		        </div>
+		        <div class="row">
+		            <!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -388,7 +411,7 @@
 		            </div>
 		            <!--Single Blog End-->
 		            <!--Single Blog Start-->
-		            <div class="col-md-6 col-lg-4">
+		            <div class="col-md-6 col-lg-3">
                         <div class="single-blog mb-30">
                             <div class="blog-img">
                                 <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
@@ -399,7 +422,45 @@
                                    <!--<li><a href="#"></a></li>-->
                                    <!--<li><a href="#">12 comments</a></li>-->
                                 </ul>
-                                <h3><a href="single-blog.html">[Titular comunicado 1]</a></h3>
+                                <h3><a href="single-blog.html">[Titular comunicado 2]</a></h3>
+                                <p>[Texto resumen noticia]</p>
+                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+		            </div>
+		            <!--Single Blog End-->
+		            <!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
+                        <div class="single-blog mb-30">
+                            <div class="blog-img">
+                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                   <li>[Fecha del comunicado]</li> 
+                                   <!--<li><a href="#"></a></li>-->
+                                   <!--<li><a href="#">12 comments</a></li>-->
+                                </ul>
+                                <h3><a href="single-blog.html">[Titular comunicado 3]</a></h3>
+                                <p>[Texto resumen noticia]</p>
+                                <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+		            </div>
+					<!--Single Blog End-->
+					<!--Single Blog Start-->
+		            <div class="col-md-6 col-lg-3">
+                        <div class="single-blog mb-30">
+                            <div class="blog-img">
+                                <a href="single-blog.html"><img src="img/blog/blog1.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-content">
+                                <ul class="blog-meta">
+                                   <li>[Fecha del comunicado]</li> 
+                                   <!--<li><a href="#"></a></li>-->
+                                   <!--<li><a href="#">12 comments</a></li>-->
+                                </ul>
+                                <h3><a href="single-blog.html">[Titular comunicado 4]</a></h3>
                                 <p>[Texto resumen noticia]</p>
                                 <a href="single-blog.html"><span>Leer más +</span> <i class="icofont icofont-long-arrow-right"></i></a>
                             </div>
@@ -418,7 +479,7 @@
 		<div class="section-title text-center mb-35">
 			<img src="img/icon/icon1.png" alt="">
 			 <h2>[Felicitaciones a todos quienes celebran su cumpleaños hoy]</h2><!--Sección de Noticias-->
-			 <h4>[Para saludar debes iniciar sesión]</h4><!--No creo que sea necesario-->
+			 <h4>[Para saludar debes iniciar sesión (?)]</h4><!--No creo que sea necesario-->
 			 <!--<p>Lawyer boluptatum deleniti atque corrupti quos dolores et quas molestias cepturi sint  eca itate non provident, similique sunt in culpa modi tempora incidunt ut labore et dolor am aerat</p>-->
 		 </div>
 		 <!--Section Title End-->
@@ -491,8 +552,6 @@
 		</footer>
 		<!--Footer Area End-->
 	</div>
-
-
 
 
 

@@ -68,7 +68,7 @@ body {
 }
 .img {
 	position: absolute;
-	max-width: 100% !important;
+	max-width: 50% !important;
 	height: auto !important;
 
 }
@@ -719,6 +719,7 @@ textarea:focus {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	display: block;
 }
 .bg-img-3 {
 	background-image: url(img/bg/bg3.jpg);
@@ -849,7 +850,7 @@ Common Style CSS
 	font-size: 16px;
 	font-weight: 500;
 	padding: 40px 17px;
-	color: #012c56 ;
+	color: #3e3d40 ;
 	line-height: 30px;
 }
 .main-menu > li > a:last-child{
