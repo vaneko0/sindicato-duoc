@@ -75,7 +75,7 @@ Version: 1.0;
         
         .img-full img {
             width: 100%;
-            position: relative;
+            position: relative;            
         }
         
         a,
@@ -1490,7 +1490,7 @@ Common Style CSS
         
         .header-sticky.is-sticky {
             background: rgba(255, 255, 255, .85);
-            position: fixed;
+            position: fixed;            
             top: 0;
             left: 0;
             width: 100%;
@@ -1960,9 +1960,9 @@ Common Style CSS
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
-            overflow: hidden;
+            overflow: hidden;                        
         }
-        
+
         .hero-content>.title>h1 {
             font-size: 55px;
             color: #ffbb33;
